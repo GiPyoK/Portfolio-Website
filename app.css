@@ -1,6 +1,21 @@
 body {
-    background: #9DA2AB;
+    background: #949BA0 ;
     font-family: "Roboto", sans-serif;
+}
+
+h2 {
+    color: #000100;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+p {
+    color: #FFFFFF;
+    font-size: 1.125rem;
+}
+
+.content {
+    margin-top: 100px;
 }
 
 #mainNavbar {
@@ -18,6 +33,11 @@ body {
 
 #mainNavbar .navbar-brand {
     color: #000100;
-    
+    font-size: 1.5rem;
+    font-weight: 300;
 }
 
+.navbar.scrolled {
+    background: #564E58;
+    transition: background 300ms;
+}
