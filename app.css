@@ -41,3 +41,11 @@ p {
     background: #564E58;
     transition: background 300ms;
 }
+
+.img-container {
+    text-align: center;
+}
+
+.NEAT-Python {
+    background-color: #9DB5B2;
+}
