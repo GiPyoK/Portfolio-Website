@@ -1,8 +1,10 @@
 <?php
-
-    $name = $_POST['name'];
-    $visitor_email = $_POST['email'];
-    $message = $_POST['message'];
+    if (isset($_POST['submit'])) {
+        $name = $_POST['name'];
+        $visitor_email = $_POST['email'];
+        $message = $_POST['message'];
+    }
+    
 
     $email_from = 'test@gmail.com';
     $email_subject = "New Form Submission";
